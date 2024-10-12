@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Random Bookmark",
+  "author": "Kuro96Viixen",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "random_bookmark@kuro96viixen.com"
+    }
+  },
+  "version": "1.0",
+  "description": "Opens a random bookmark if selected a folder and bookmark if selected bookmark",
+  "permissions": [
+    "contextMenus",
+    "bookmarks"
+  ],
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "background": {
+    "scripts": [
+      "random.js"
+    ]
+  }
+}
