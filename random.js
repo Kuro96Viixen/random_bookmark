@@ -1,12 +1,10 @@
 // Developed by Kuro96Viixen at 20241009
 
 const BOOKMARK_MENU_ID = "random_bookmark"
-const BOOKMARK_MENU_TITLE = "Open random bookmark"
-
 
 browser.contextMenus.create({
     id: BOOKMARK_MENU_ID,
-    title: BOOKMARK_MENU_TITLE,
+    title: browser.i18n.getMessage("context_menu_title"),
     contexts: ["bookmark"],
 });
 
@@ -55,7 +53,7 @@ async function urlProperties(bookmarkId) {
 
     // This is a separator
     if (bookmarkUrl === "data:") {
-        throw Error('Separator is not a valid bookmark or bookmark folder');
+        throw Error(browser.i18n.getMessage("separator_error"));
     }
 
     let createProperties = {
