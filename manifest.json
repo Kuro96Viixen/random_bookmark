@@ -1,14 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "Random Bookmark",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
   "author": "Kuro96Viixen",
+  "default_locale": "en",
   "browser_specific_settings": {
     "gecko": {
       "id": "random_bookmark@kuro96viixen.com"
     }
   },
-  "version": "1.0",
-  "description": "Opens a random bookmark if selected a folder and bookmark if selected bookmark",
+  "version": "1.1",
   "permissions": [
     "contextMenus",
     "bookmarks"

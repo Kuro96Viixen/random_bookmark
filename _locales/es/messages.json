@@ -1,0 +1,18 @@
+{
+    "extensionName": {
+        "message": "Random Bookmark",
+        "description": "Nombre de la extensión."
+    },
+    "extensionDescription": {
+        "message": "Esta extension le permite abrir un marcador aleatorio desde una carpeta.",
+        "description": "Descripción corta de la extensión."
+    },
+    "context_menu_title": {
+        "message": "Abrir un marcador aleatorio",
+        "description": "Etiqueta del objeto del menu contextual de un marcador."
+    },
+    "separator_error": {
+        "message": "Un separador no es un marcador o una carpeta de marcadores válida",
+        "description": "Texto que la consola mostrará al capturar el error."
+    }
+}

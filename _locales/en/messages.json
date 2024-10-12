@@ -1,0 +1,18 @@
+{
+    "extensionName": {
+        "message": "Random Bookmark",
+        "description": "Name of the extension."
+    },
+    "extensionDescription": {
+        "message": "This extension allow you to open a random bookmark from a folder.",
+        "description": "Short description of the extension."
+    },
+    "context_menu_title": {
+        "message": "Open a random bookmark",
+        "description": "Label of item in the context menu of a bookmark."
+    },
+    "separator_error": {
+        "message": "Separator is not a valid bookmark or bookmark folder",
+        "description": "Text that the console will print on error thrown."
+    }
+}
